@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">NavigationComponent</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="send_money">Send Money</string>
+    <string name="view_transaction">View Transaction</string>
+    <string name="view_balance">View Balance</string>
+    <string name="welcome_to_android_bank">Welcome to Android Bank</string>
+    <string name="your_balance_is_1_million_usd">Your Balance is 1 million USD</string>
+    <string name="educational_funds">Educational Funds:</string>
+    <string name="_15k_usd">15k USD</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="enter_receiver_name">Enter receiver name</string>
 </resources>
