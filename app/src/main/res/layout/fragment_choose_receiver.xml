@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.fragments.ChooseReceiverFragment">
+    tools:context=".views.view.fragments.ChooseReceiverFragment">
 
     <EditText
-        android:id="@+id/fr_choose_receiver_name"
+        android:id="@+id/fr_choose_receiver_name_et"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="@string/enter_receiver_name"
@@ -26,8 +27,8 @@
         android:text="@string/cancel"
         app:layout_constraintEnd_toStartOf="@+id/fr_choose_receiver_next_btn"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/fr_choose_receiver_name"
-        app:layout_constraintTop_toBottomOf="@+id/fr_choose_receiver_name" />
+        app:layout_constraintStart_toStartOf="@+id/fr_choose_receiver_name_et"
+        app:layout_constraintTop_toBottomOf="@+id/fr_choose_receiver_name_et" />
 
     <Button
         android:id="@+id/fr_choose_receiver_next_btn"
@@ -35,9 +36,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/next"
-        app:layout_constraintEnd_toEndOf="@+id/fr_choose_receiver_name"
+        app:layout_constraintEnd_toEndOf="@+id/fr_choose_receiver_name_et"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/fr_choose_receiver_cancel_btn"
-        app:layout_constraintTop_toBottomOf="@+id/fr_choose_receiver_name" />
+        app:layout_constraintTop_toBottomOf="@+id/fr_choose_receiver_name_et" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
